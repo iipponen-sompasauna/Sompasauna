@@ -1,0 +1,877 @@
+/* Reset defaults */
+ html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+     box-sizing: border-box;
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+}
+ *, *:before, *:after {
+     box-sizing: inherit;
+}
+/* * Remove text-shadow in selection highlight: * https://twitter.com/miketaylr/status/12228805301 * * Customize the background color to match your design. */
+ ::-moz-selection {
+     background: #b3d4fc;
+     text-shadow: none;
+}
+ ::selection {
+     background: #b3d4fc;
+     text-shadow: none;
+}
+/* * Remove the gap between audio, canvas, iframes, * images, videos and the bottom of their containers: * https://github.com/h5bp/html5-boilerplate/issues/440 */
+ audio, canvas, iframe, img, svg, video {
+     vertical-align: middle;
+}
+ img{
+     max-width:100%;
+}
+/* * Remove default fieldset styles. */
+ fieldset {
+     border: 0;
+     margin: 0;
+     padding: 0;
+}
+/* * Allow only vertical resizing of textareas. */
+ textarea {
+     resize: vertical;
+}
+/* ---------------------*/
+/* --- Actual styles ---*/
+/* ---------------------*/
+ body {
+     margin: 0;
+     font-family: "Public Sans", Helvetica, Arial, sans-serif;
+     background:#373737;
+}
+ .link:hover {
+     text-decoration: underline;
+     cursor: pointer;
+}
+ header {
+     width: 100%;
+     background-color: #E7D8C0;
+     z-index: 3;
+     position: relative;
+     top: 0;
+     min-height:72px;
+}
+ .maxwidth{
+     max-width:1920px;
+}
+ .left{
+     float:left;
+}
+ .right{
+     float:right;
+}
+ .alignleft{
+     text-align:left;
+}
+ .alignright{
+     text-align:right;
+}
+ .aligncenter{
+     text-align:center;
+}
+ .langmenucnt {
+     display:block;
+     float:right;
+     position:relative;
+}
+ .langcnt{
+     background-image: url("../images/language_inv.png");
+     background-repeat: no-repeat;
+     background-size: 28px;
+     display:none;
+     float: left;
+     margin-top: 6px;
+     background-position: left center;
+}
+ .langtext{
+     font-size:14px;
+     padding-left: 42px;
+     padding-left: 34px;
+     line-height: 34px;
+     color:#FFF;
+}
+ .leftcol{
+     display:block;
+     float:left;
+     width:90px;
+     background:#f1f;
+}
+ .midcol {
+     display: block;
+     float: left;
+     width: 100%;
+}
+ .rightcol{
+     display:block;
+     float:left;
+     width:90px;
+     background:#11f;
+}
+ .largetext{
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     color: #222;
+     display: block;
+     font-size: 34px;
+     font-weight: 400;
+     margin:0;
+     padding: 30px 0 50px 0;
+}
+ .mediumtext{
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     font-size: 28px;
+     font-weight: 400;
+     margin: 0;
+     padding: 26px 0;
+}
+ .smllogo{
+     position: absolute;
+     width: 90px;
+     height: 72px;
+     background:#FFF;
+}
+ .smllogo.bottom{
+     bottom:0;
+}
+ .smllogo.top{
+     top:0;
+}
+ .smllogo.left{
+     left:0;
+}
+ .smllogo.right{
+     right:0;
+}
+ .smllogo img{
+     margin: 10px 20px;
+     width: 50px;
+}
+ .sidetext{
+     width: 90px;
+     display: block;
+     top: 60px;
+     margin: 0;
+     padding:46px 0;
+}
+ .sidetext.left{
+     left:0;
+}
+ .sidetext.right{
+     right:0;
+}
+ .title{
+     font-size: 54px;
+     line-height: 1;
+     transform: rotate(-90deg) translateY(50px) translateX(-100%);
+     transform-origin: 0% 50%;
+     position: fixed;
+     top: 115px;
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+}
+ header .logo{
+     width: 90px;
+     height: 100%;
+     background-color: white;
+}
+ header .logo img {
+     margin: 10px 30px;
+     width: 50px;
+}
+ header .topbar {
+     display: block;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 26px 0 26px;
+     font-weight: 400;
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+}
+ .topbartext {
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 34px;
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     margin: 20px 0 0 0;
+     color:#FFF;
+}
+ .topbartext a{
+     color:#FFF;
+}
+ .topbartext a:hover{
+     color:#222;
+}
+ main {
+     padding: 0;
+     background:#FFF;
+}
+ main a {
+     color:#222;
+     text-decoration: underline;
+}
+ main .mainsectcont{
+     min-height: 500px;
+}
+ main .full-width{
+     width: 100%;
+     background:#FFF;
+}
+ main .content {
+     padding:0 24px 24px 24px;
+     line-height:24px;
+}
+ main .beige {
+     background-color: #E7D8C0;
+}
+ main .introduction {
+     background-color: #000;
+     color: #fff;
+}
+ .strong{
+     font-weight:700;
+}
+ .sompahumancnt{
+     display: block;
+     float: left;
+     width: 100%;
+     position: relative;
+}
+ .sompahumansomecnt {
+     width: 100%;
+     display: block;
+     position: relative;
+     margin-bottom: 36px;
+     float: left;
+}
+ .sompahumansome {
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     font-size: 16px;
+     position: relative;
+     bottom: 0;
+     right: 20px;
+}
+ .sompahumansome.right {
+     right: 20px;
+     clear: none;
+     float: right;
+     left: auto;
+}
+ .sompahumansome.left {
+     left:20px;
+}
+ .frontpageheader{
+     font-size:24px;
+}
+ .sompahumansome p {
+     display: block;
+     font-size: 14px;
+     margin: 18px 0 12px 0px;
+     clear: both;
+     float: left;
+}
+ .sompahumansome img{
+     display:block;
+}
+ .sompahumanicons{
+    /*z-index: 30000;
+    */
+     position: relative;
+     clear: none;
+}
+ .sompahumanicons a.left{
+     float:left;
+}
+ .sompahumanicons a.right{
+     float:right;
+}
+ main .sompahuman {
+     display: block;
+     position: relative;
+     margin: auto;
+     text-align: center;
+}
+ .socmediacontinv{
+     width: 48px;
+     height: 48px;
+     display: block;
+     border-radius: 50%;
+     background: #000;
+     margin: 0px 6px 0 0px;
+     float:left;
+}
+ .socmediacontinv.right{
+     float:right;
+}
+ .socmediacontinv:hover{
+     background: #d59b3e;
+}
+ .saha{
+     width:120px;
+}
+ .sometop img {
+     width: 26px;
+     height: 26px;
+     text-align:center;
+     margin:11px 0 0px 11px;
+}
+ .sompahumanimg{
+     width: 100%;
+     height: 100%;
+     position: relative;
+     top: 0;
+     left: 0;
+}
+ .sompahumanimg img {
+     margin-top:24px;
+     padding: 0 0 0 36px;
+}
+ .maincont{
+     width:100%;
+     margin-right: auto;
+     margin-left: auto;
+     display:block;
+     background:#D59B3E;
+}
+ .maincont2{
+     width:100%;
+     display:block;
+     float:left;
+     background:#d59b3e;
+     position: relative;
+}
+ .leftcont{
+     width:90px;
+     display:block;
+     float:left;
+}
+ .rightcnt{
+     width:90px;
+     display:block;
+     float:right;
+}
+ .midcont{
+     width: calc(100% - 222px);
+     display: block;
+     float: left;
+     margin: 0;
+}
+ .contcent{
+     text-align:center;
+}
+ .saunaimg{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-height: 151px;
+     margin-bottom:50px;
+}
+
+ footer {
+     box-sizing: border-box;
+     background-color: black;
+     color: white;
+     width: 100%;
+     padding:42px 24px 12px 24px;
+}
+ footer section {
+     margin: 0 auto;
+}
+ footer section.contact {
+     justify-content: space-between;
+     margin-bottom: 20px;
+     text-align:center;
+}
+ footer section.contact .email {
+     color:#FFF;
+     text-decoration:underline;
+}
+ footer section.contact .center {
+     justify-content: center;
+}
+ footer section.contact .center .some {
+     background-color: white;
+}
+ footer section.contact .center .some:hover {
+     background-color: #D59B3E;
+}
+ footer section.contact .right {
+     text-align: right;
+}
+ .slogan{
+     padding: 10px 0 12px 0;
+}
+ .slogan img{
+     width:100%;
+}
+ .some {
+     width: 48px;
+     height: 48px;
+}
+ .socmediacont{
+     width: 48px;
+     height: 48px;
+     float: left;
+     display: block;
+     border-radius: 50%;
+     background: #FFF;
+     margin: 0 10px;
+}
+ .socmediacont:hover{
+     background: #d59b3e;
+}
+ .socmedia{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 140px;
+     margin-top: 21px;
+}
+ .contactcnt{
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+     display: flex;
+}
+ .contactcol{
+     display: flex;
+     justify-content: center;
+}
+ .contactcol.col1{
+     order: 1;
+}
+ .contactcol.col2{
+     order: 3;
+}
+ .contactcol.col3{
+     order: 2;
+}
+ .some img {
+     width: 26px;
+     height: 26px;
+     text-align:center;
+     margin:11px 0 0 0;
+}
+ .payment {
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+}
+ .paymentimg {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-height: 73px;
+     margin-bottom: 24px;
+}
+ .paymentimgcnt {
+     display:block;
+     width:100%;
+     min-height: 74px;
+}
+ .paymentimgcnt.holvi {
+     padding-top:23px;
+}
+ .paymentimg.holvi {
+     margin-top: 14px;
+}
+ .paymentcnt{
+     margin-top:60px;
+}
+ .contpadlrg{
+     padding: 60px 24px;
+}
+ .contpadmed{
+     padding:24px 100px 82px 100px;
+}
+ .contpadsml{
+     padding: 48px 0 82px 0;
+}
+ .sidecnt{
+     display:none;
+}
+ header {
+     background-color: #D59B3E;
+}
+/* ========================================================================== Helper classes ========================================================================== */
+/* * Hide visually and from screen readers */
+ .hidden, [hidden] {
+     display: none;
+}
+/* * Hide only visually, but have it available for screen readers: * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility * * 1. For long content, line feeds are not interpreted as spaces and small width * causes content to wrap 1 word per line: * https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+ .visually-hidden {
+     border: 0;
+     clip: rect(0, 0, 0, 0);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+    /* 1 */
+}
+/* * Extends the .visually-hidden class to allow the element * to be focusable when navigated to via the keyboard: * https://www.drupal.org/node/897638 */
+ .visually-hidden.focusable:active, .visually-hidden.focusable:focus {
+     clip: auto;
+     height: auto;
+     margin: 0;
+     overflow: visible;
+     position: static;
+     white-space: inherit;
+     width: auto;
+}
+/* * Hide visually and from screen readers, but maintain layout */
+ .invisible {
+     visibility: hidden;
+}
+ .colsingleimgcnt {
+     display: block;
+     position: relative;
+     margin: auto;
+     text-align: center;
+}
+ .colsingleimg{
+     width:80%;
+     display: block;
+     margin: auto;
+     margin-top: 40px;
+}
+ .bigbtn {
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     font-weight: 400;
+     color: #222;
+     background:#fffdcb;
+     text-decoration:none;
+     outline: none;
+     font-size: 18px;
+     border: 6px solid #222;
+     box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
+     padding: 18px 20px 14px 20px;
+}
+ .bigbtncnt {
+     text-align: center;
+     margin:100px 0 100px 0;
+}
+ @media screen and (min-width: 35.5em) {
+     .colsingleimg{
+         width:60%;
+         display: block;
+         margin: auto;
+         margin-top: 40px;
+    }
+     .largetext{
+         font-size: 40px;
+         padding: 38px 0 60px 0;
+    }
+     .topbartext{
+         font-size: 18px;
+    }
+     .langtext{
+         font-size:18px;
+    }
+     .langcnt{
+         margin-top: 3px;
+    }
+     .langcnt{
+         background-size: 34px;
+    }
+     .contpadlrg{
+         padding: 40px;
+    }
+     .contpadmed{
+         padding:24px 100px 82px 100px;
+    }
+     .contpadsml{
+         padding: 64px 0 36px 0 
+    }
+     .socmediacontinv{
+         margin: 0px 6px 0 0px;
+    }
+     .frontpageheader{
+         font-size:16px;
+    }
+     footer {
+         padding:42px 20px 23px;
+         padding:42px 20px 23px 24px;
+    }
+     .bigbtn{
+         font-size: 20px;
+         border: 6px solid #222;
+         box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
+         padding: 18px 24px 12px 24px;
+    }
+}
+ @media screen and (min-width: 48em) {
+     .largetext {
+         font-size: 42px;
+         padding: 40px 0 62px 0;
+    }
+     .sidecnt{
+         display:block;
+    }
+     .frontpageheader{
+         font-size:18px;
+    }
+     .topbartext, .topbartext a{
+         color:#222;
+         font-size: 28px;
+    }
+     .langtext{
+         color:#222;
+    }
+     .langcnt {
+         background-image: url(../images/language.png);
+    }
+     .langtext{
+         padding-left: 42px;
+    }
+     header {
+         background-color: #E7D8C0;
+    }
+     .midcol{
+         display:block;
+         float:left;
+         width: calc(100% - 180px);
+    }
+     .contpadsml{
+         padding:70px 40px;
+    }
+     footer {
+         padding:42px 36px 10px 36px;
+    }
+     .sompahumansome p {
+         font-size: 16px;
+    }
+     .bigbtn{
+         font-size: 28px;
+         border: 6px solid #222;
+         box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
+         padding: 18px 24px 12px 24px;
+    }
+     .mediumtext{
+         font-size: 28px;
+    }
+}
+ @media screen and (min-width: 64em) {
+     .colsingleimg{
+         width:80%;
+         display: block;
+         margin: auto;
+         margin-top: 40px;
+    }
+     .contpadsml{
+         padding:70px 60px;
+    }
+     .socmediacontinv{
+         margin: 0 4px;
+    }
+     .sompahumansome {
+         position: absolute;
+        /*z-index: 30000;
+        */
+         top: 0;
+    }
+     .frontpageheader{
+         font-size:24px;
+    }
+     .largetext {
+         font-size: 44px;
+         padding: 42px 0 64px 0;
+    }
+     .leftcol{
+         width:111px;
+    }
+     .midcol{
+         width: calc(100% - 222px);
+    }
+     .rightcol{
+         width:111px;
+    }
+     .smllogo{
+         width:111px;
+    }
+     .sidetext{
+         width:111px;
+    }
+     header .logo{
+         width:111px;
+    }
+     .leftcont{
+         width:111px;
+    }
+     .rightcnt{
+         width:111px;
+    }
+     .title{
+         font-size: 62px;
+         transform: rotate(-90deg) translateY(60px) translateX(-100%);
+         transform-origin: 0% 50%;
+         top: 115px;
+    }
+     .smllogo img {
+         margin: 8px 29px;
+         width: 54px;
+    }
+     .bigbtn{
+         background:#fffdcb;
+         font-size: 34px;
+         border: 6px solid #222;
+         box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
+         padding: 18px 27px 12px 27px;
+    }
+     .sompahumansome {
+         font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+         font-size: 16px;
+         position: absolute;
+         bottom: 0;
+         right: 20px;
+         z-index: 30000;
+         margin-bottom:0;
+    }
+     main .sompahuman {
+         display: block;
+         position: relative;
+         margin: auto;
+         text-align: center;
+         margin-bottom:0;
+    }
+     .topbartext a:hover {
+         color: #d59b3e;
+    }
+     .sompahumanicons{
+        /*z-index: 30000;
+        */
+         position: relative;
+         clear: both;
+    }
+     .sompahumansome.right {
+         right: 20px;
+         clear:none;
+         float:left;
+         left:auto;
+    }
+     .sompahumanicons a.right {
+         float: right;
+    }
+     .sompahumansomecnt {
+         width: 100%;
+         display: block;
+         position: static;
+         margin-bottom: 36px;
+         float: none;
+    }
+     .sompahumanimg img {
+         padding:0;
+         padding: 0 0 0 46px;
+    }
+     .mediumtext{
+         font-size: 24px;
+    }
+}
+ @media screen and (min-width: 80em) {
+     .maincont {
+         width:100%;
+    }
+     .contpadlrg{
+         padding: 80px;
+    }
+     .contpadmed{
+         padding:24px 100px 82px 100px;
+    }
+     .contpadsml{
+         padding:70px 100px;
+    }
+     .largetext {
+         font-size: 46px;
+         padding: 44px 0 66px 0;
+    }
+     .frontpageheader{
+         font-size:48px;
+         padding: 18px 0 44px 0;
+    }
+     .contactcnt{
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         text-align: justify;
+    }
+     .contactcol{
+         width:100%;
+    }
+     .contactcol.col1{
+         order: 1;
+         justify-content: flex-start;
+    }
+     .contactcol.col2{
+         order: 2;
+    }
+     .contactcol.col3{
+         order: 3;
+         text-align: right;
+         justify-content: flex-end;
+    }
+     .colsingleimg{
+         max-width: 400px;
+    }
+     .socmedia {
+         margin-top: 0;
+    }
+     .some img {
+         text-align:center;
+         margin: 11px 0px 0px 11px;
+    }
+     footer {
+         padding: 135px 22px 11px 22px;
+    }
+     .bigbtn{
+         font-size: 38px;
+         border: 6px solid #222;
+         box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
+         padding: 18px 27px 12px 27px;
+    }
+     .mediumtext{
+         font-size: 28px;
+    }
+}
+ @media screen and (min-width: 120em) {
+     .sompahumanimg{
+         margin-top:0;
+    }
+     .socmediacontinv.left{
+         margin:0 6px 0 0;
+    }
+     .socmediacontinv.right{
+         margin:0 0 0 6px;
+    }
+     .frontpageheader{
+         font-size:48px;
+    }
+     .largetext {
+         font-size: 48px;
+         padding:0px 0 46px 0;
+    }
+     .bigbtn {
+         font-size: 45px;
+         border: 7px solid #222;
+         box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
+         padding: 18px 27px 12px 27px;
+    }
+}
+ @media screen and (min-width: 160em) {
+     .socmediacontinv{
+         margin: 0 8px;
+    }
+     .frontpageheader{
+         font-size:40px;
+    }
+}
+ @media screen and (min-width: 240em) {
+     .socmediacontinv{
+         margin: 0 11px;
+    }
+     .frontpageheader{
+         font-size:48px;
+    }
+} 
