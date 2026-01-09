@@ -62,8 +62,10 @@ a {
 
 
  .maxwidth{
-     max-width:1920px;
+     max-width:100%;
+	 width:1920px;
 }
+
  .left{
      float:left;
 }
@@ -85,7 +87,7 @@ a {
 }
 
  .maincont{
-     width:100%;
+     /*width:100%;*/
      margin-right: auto;
      margin-left: auto;
      display:block;
@@ -374,8 +376,8 @@ a {
  .sometop img {
      width: 26px;
      height: 26px;
-     text-align:center;
-     margin:11px 0 0px 11px;
+     text-align:center;     
+	 margin:12px 0 0px 9px;
 }
  .sompahumanimg{
      width: 100%;
@@ -761,7 +763,8 @@ a {
 }
  @media screen and (min-width: 80em) {
      .maincont {
-         width:100%;
+         max-width:100%;
+		 /*width:1920px;*/
     }
      .contpadlrg{
          padding: 80px;
