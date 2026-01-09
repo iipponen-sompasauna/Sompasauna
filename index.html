@@ -6,7 +6,6 @@
 	  <meta name="author" content="Katriina Kallioinen">
       <title>Sompasauna - Etusivu</title>
       <link rel="stylesheet" href="css/style.css?11">
-      <link rel="stylesheet" href="css/navi.css?11">
       <meta name="description" content="">
       <meta property="og:title" content="">
       <meta property="og:type" content="">
@@ -21,7 +20,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
 	  <link rel="icon" href="images/sompaleijona_fav.svg" type="image/svg+xml">
-      <script src="js/app.js"></script>
+      <script src="js/app.js?11"></script>
    </head>
    <body>
 	  <div id="menuOverlay" class=" menucont">
@@ -29,17 +28,17 @@
 			<div class="pure-g">
 				<div class="pure-u-1 ">
 					<div id="topLinks" class="toplinks maxwidth">
-					   <nav role="navigation">
-						  <ul class="mobnavul close">
-							 <li class="mobbsep mobbsepclose">
-								<a href="javascript:void(0);" class="mobnavrow" onclick="closeNav()">MENU KII!</a>
+					   <nav>
+						  <ul class="mobnavul">
+							 <li class="mobnavsep mobnavclose">
+								<a href="javascript:void(0);" class="mobnavlink" onclick="closeNav()">MENU KII!</a>
 							</li>
 						  </ul>
 						  <ul class="mobnavul">
-							 <li class="mobbsep"><a href="index.html" class="mobnavrow">ETUSIVU</a></li>
-							 <li class="mobbsep"><a href="medialle.html" class="mobnavrow">MEDIALLE</a></li>
-							 <li class="mobbsep"><a href="yhdistys.html" class="mobnavrow">YHDISTYS</a></li>
-							 <li class="mobbsep"><a href="saapuminen.html" class="mobnavrow">SAAPUMINEN</a></li>
+							 <li class="mobnavsep"><a href="index.html" class="mobnavlink">ETUSIVU</a></li>
+							 <li class="mobnavsep"><a href="medialle.html" class="mobnavlink">MEDIALLE</a></li>
+							 <li class="mobnavsep"><a href="yhdistys.html" class="mobnavlink">YHDISTYS</a></li>
+							 <li class="mobnavsep"><a href="saapuminen.html" class="mobnavlink">SAAPUMINEN</a></li>
 						  </ul>
 					   </nav>
 					</div>
@@ -67,18 +66,16 @@
                   <div class="topbar">
                      <div class="pure-g">
                         <div class="pure-u-10-24 pure-u-xxl-10-24 pure-u-lg-10-24 ">
-                           <h1 class="topbartext"><a href="index.html" >Sompasauna</a></h1>
+                           <a href="index.html" ><h1 class="topbartext">Sompasauna</h1></a>
                         </div>
                         <div class="pure-u-14-24 pure-u-xxl-14-24 pure-u-lg-14-24 ">
                            <div class="langmenucnt">
                               <div class="langcnt">
                                  <p class="langtext">SUOMI</p>
                               </div>
-                              <div class="topnavcntmob">
-                                 <a href="javascript:void(0);" class="hamicon" onclick="openNav()">
-                                    <p class="hamtext">MENU</p>
-                                 </a>
-                              </div>
+							  <a href="javascript:void(0);" class="hamicon" onclick="openNav()">
+								 <p class="topbartext">MENU</p>
+							  </a>
                            </div>
                         </div>
                      </div>
@@ -86,8 +83,8 @@
                </header>			   
                <main>
                   <div class="mainsectcont">					 
-					 <div class="full-width pure-g">
-                        <div class="sompahumancnt">
+					 <div class="pure-g">
+                        <div class="pure-u-1 sompahumancnt">
 						   <div class="sompahuman">
                               <div class="sompahumanimg">
                                  <img src="images/sompahuman.svg" alt="">
@@ -117,81 +114,81 @@
 						   </div>
                         </div>
                      </div>
-                     <div class="full-width pure-g beige contpadsml">
+                     <div class="pure-g beige contpadsml">
                         <div class="pure-u-1">
                            <h2 class="largetext aligncenter">SAUNAINFO</h2>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">1.</span>
                               <p class="strong">Sompasauna on aina auki</p>
                               <p>Sompasaunalla ei ole henkilökuntaa, saunan voi tulla aina lämmittämään itse.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">2.</span>
                               <p class="strong">Sompasauna on maksuton</p>
                               <p>Voit halutessasi lahjoittaa rahaa tai liittyä yhdistykseen.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">3.</span>
                               <p class="strong">Sompasauna on sekasauna kaikille </p>
                               <p>Saunalla ei ole erillisiä naisten tai miesten saunavuoroja.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">4.</span>
                               <p class="strong">Asu vapaa</p>
                               <p>Voit saunoa ja uida alasti tai uimapuvussa.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">5.</span>
                               <p class="strong">Ota mukaan juomavettä ja pyyhe</p>
                               <p>Saunalla ei ole juoksevaa vettä. Saunalla ei ole suihkuja tai peseytymismahdollisuutta.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">6.</span>
                               <p class="strong">Tuo oma lukko</p>
                               <p>Saunalla ei ole pukuhuoneita. Arvotavaroita varten on lokeroita, joita varten tarvitset oman munalukon.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">7.</span>
                               <p class="strong">Sompasaunalla on nollatoleranssi seksuaaliselle häirinnälle</p>
                               <p>Häirikölle voidaan antaa porttikielto saunalle.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">8.</span>
                               <p class="strong">Saunalla ei saa valokuvata tai käyttää kaiuttimia</p>
                               <p>Saunalla saa soittaa akustista musiikkia ja laulaa, ja saunalta löytyy piano.</p>
                            </div>
                         </div>
                         <div class="pure-u-1 pure-u-lg-1-3">
-                           <div class="content contcent">
+                           <div class="content aligncenter">
                               <span class="mediumtext">9.</span>
                               <p class="strong">Älä ole tyberä</p>
                               <img src="./images/saha.png" alt="saha" class="saha">
                            </div>
                         </div>
                      </div>
-                     <div class="full-width pure-g contpadlrg">
+                     <div class="pure-g contpadlrg">
                         <div class="pure-u-1">
                            <h2 class="mediumtext aligncenter">Tue Sompasaunan löylyjä.<br>jokainen €uro lämmittää!</h2>
                         </div>
                         <div class="pure-g paymentcnt">
                            <div class="pure-u-24-24 pure-u-xxl-8-24 pure-u-lg-8-24 ">
-                              <div class="content contcent">
+                              <div class="content aligncenter">
 								 <div class="paymentimgcnt">
 									<img src="./images/payment_mobilepay.svg" alt="MobilePay" class="paymentimg">
 								 </div>
@@ -200,7 +197,7 @@
                               </div>
                            </div>
                            <div class="pure-u-24-24 pure-u-xxl-8-24 pure-u-lg-8-24 ">
-                              <div class="content contcent">
+                              <div class="content aligncenter">
 								 <div class="paymentimgcnt">
 									<img src="./images/payment_paypal.svg" alt="Paypal" class="paymentimg">
 								 </div>
@@ -209,7 +206,7 @@
                               </div>
                            </div>
                            <div class="pure-u-24-24 pure-u-xxl-8-24 pure-u-lg-8-24 ">
-                              <div class="content contcent">
+                              <div class="content aligncenter">
 								 <div class="paymentimgcnt holvi">
 									<img src="./images/payment_holvi.svg" alt="Holvi" class="paymentimg">
 								 </div>
@@ -221,9 +218,9 @@
                      </div>
                   </div>
                </main>
-               <div class="full-width pure-g  ">
+               <div class="pure-g">
                   <footer>
-                     <section class="contact">
+                     <div class="contact">
                         <div class="contactcnt">
                            <div class="contactcol col1">
                               <div class="address">Kansanpuistonpolku 5<br>00570 Helsinki<br><a href="mailto:sompasauna@sompasauna.fi" class="email">sompasauna@sompasauna.fi</a></div>
@@ -244,7 +241,7 @@
                               <div class="address"><br>Y-tunnus: 2661146-7<br>Rahankeräyslupanumero: RA/2023/1573</div>
                            </div>
                         </div>
-                     </section>
+                     </div>
                      <div class="pure-u-1">
                         <div class="slogan">
                            <img src="images/slogan.png" alt="Don't be stubid">
