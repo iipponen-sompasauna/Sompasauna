@@ -107,7 +107,7 @@ a {
      text-decoration: underline;
 }
  main .mainsectcont{
-     min-height: 500px;
+     min-height: 540px;
 }
 
  main .content {
@@ -135,7 +135,7 @@ a {
      background-image: url("../images/language_inv.png");
      background-repeat: no-repeat;
      background-size: 26px;
-	 display:none;
+	 display:block;
      float: left;
      margin-top: 14px;
      background-position: left center;
@@ -145,6 +145,20 @@ a {
 	 padding:0 30px 0 32px;
      color:#FFF;
 }
+
+.langtext{
+     font-size:14px;	 
+	 padding:0 30px 0 32px;     
+}
+
+.langtext a{
+     color:#FFF;
+}
+
+.langtext a:hover{
+     color:#222;
+}
+
 /* ------------ Language selector end ------------*/
 
 
@@ -215,6 +229,7 @@ a {
 	 font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      position: fixed;
      top: 115px;
+	 text-wrap-mode: nowrap;
 }
  .rotleft{
      transform: rotate(-90deg) translateY(48px) translateX(-100%);
@@ -648,14 +663,19 @@ a {
      .sidecnt{
          display:block;
     }
-
      .topbartext, .topbartext a{
          color:#222;
          font-size: 28px;
     }
-     .langtext{
-         color:#222;
+	.topbartext:hover {
+         color: #d59b3e;
     }
+	
+	
+	
+	
+	
+	
      .langcnt {
          background-image: url(../images/language.png);
 		 margin-top: 9px;
@@ -665,6 +685,12 @@ a {
 		 padding: 0 30px 0 36px;
 		 font-size: 18px;
     }
+	.langtext a{
+		color:#222;
+	}
+	.langtext a:hover{
+		color:#d59b3e;
+	}
      .midcol{
          display:block;
          float:left;
@@ -741,9 +767,7 @@ a {
          box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
          padding: 18px 27px 12px 27px;
     }
-	.topbartext:hover {
-         color: #d59b3e;
-    }
+
 
      .sompahuman {
          display: block;
