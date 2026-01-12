@@ -119,6 +119,11 @@ a {
      background-color: #D59B3E;
 }
 
+.mainmenu
+{
+	float:right;
+}
+
 /* ------------ Language selector start ------------*/
 
  .langmenucnt {
@@ -129,17 +134,15 @@ a {
  .langcnt{
      background-image: url("../images/language_inv.png");
      background-repeat: no-repeat;
-     background-size: 28px;
-     display:none;
+     background-size: 26px;
+	 display:none;
      float: left;
-     margin-top: 6px;
+     margin-top: 14px;
      background-position: left center;
 }
  .langtext{
-     font-size:14px;
-     padding-left: 42px;
-     padding-left: 34px;
-     line-height: 34px;
+     font-size:14px;	 
+	 padding:0 30px 0 32px;
      color:#FFF;
 }
 /* ------------ Language selector end ------------*/
@@ -607,11 +610,12 @@ a {
          font-size: 18px;
     }
      .langtext{
-         font-size:18px;
+         font-size:14px;
+		 padding:0px 30px 0 36px;
     }
      .langcnt{
-         margin-top: 3px;
-		 background-size: 34px;
+         margin-top: 14px;
+		 background-size: 28px;
     }
      .contpadlrg{
          padding: 40px;
@@ -654,9 +658,12 @@ a {
     }
      .langcnt {
          background-image: url(../images/language.png);
+		 margin-top: 9px;
+         background-size: 28px;
     }
-     .langtext{
-         padding-left: 42px;
+     .langtext{		 
+		 padding: 0 30px 0 36px;
+		 font-size: 18px;
     }
      .midcol{
          display:block;
