@@ -31,8 +31,6 @@
      margin: 0;
      padding: 0;
 }
-
-
 /* ---------------------*/
  body {
      margin: 0;
@@ -51,21 +49,16 @@
      top: 0;
      min-height:72px;
 }
-
-a {
+ a {
      text-decoration: none;
 }
-
  .strong{
      font-weight:700;
 }
-
-
  .maxwidth{
      max-width:100%;
-	 width:1920px;
+     width:1920px;
 }
-
  .left{
      float:left;
 }
@@ -81,13 +74,12 @@ a {
  .aligncenter{
      text-align:center;
 }
-
  .beige {
      background-color: #E7D8C0;
 }
-
  .maincont{
-     /*width:100%;*/
+    /*width:100%;
+    */
      margin-right: auto;
      margin-left: auto;
      display:block;
@@ -97,7 +89,6 @@ a {
      background:#d59b3e;
      position: relative;
 }
-
  main {
      padding: 0;
      background:#FFF;
@@ -109,59 +100,63 @@ a {
  main .mainsectcont{
      min-height: 540px;
 }
-
  main .content {
      padding:0 24px 24px 24px;
      line-height:24px;
 }
-
  header {
      background-color: #D59B3E;
 }
-
-.mainmenu
-{
-	float:right;
+ .mainmenu {
+     float:right;
 }
-
 /* ------------ Language selector start ------------*/
-
  .langmenucnt {
      display:block;
      float:right;
      position:relative;
 }
  .langcnt{
-     background-image: url("../images/language_inv.png");
-     background-repeat: no-repeat;
-     background-size: 26px;
-	 display:block;
+     display:block;
      float: left;
-     margin-top: 14px;
-     background-position: left center;
+     padding-top: 15px;
 }
  .langtext{
-     font-size:14px;	 
-	 padding:0 30px 0 32px;
+     font-size:14px;
      color:#FFF;
+     display:block;
+     float: left;
+     margin-right: 12px;
+     padding: 0px 0 0px 2px;
 }
-
-.langtext{
-     font-size:14px;	 
-	 padding:0 30px 0 32px;     
+ .langtext img{
+     height: 24px;
+     width: 24px;
+     float: left;
+     position: relative;
+     margin-right: 3px;
+     top: 8px;
+     filter: invert(100%) brightness(125%);
+     -webkit-filter: invert(100%) brightness(125%);
+    /* safari 6.0 - 9.0 */
 }
-
-.langtext a{
-     color:#FFF;
-}
-
-.langtext a:hover{
+ .langtext:hover p{
      color:#222;
 }
-
+ .langtext:hover img{
+     -webkit-filter:none;
+}
+ .langtext p{
+     display:block;
+     float: left;
+}
+ .langtext a{
+     color:#FFF;
+}
+ .langtext a:hover{
+     color:#222;
+}
 /* ------------ Language selector end ------------*/
-
-
  .midcol {
      display: block;
      float: left;
@@ -183,11 +178,7 @@ a {
      margin: 0;
      padding: 26px 0;
 }
-
-
-
 /* ------------ Sidebar start ------------*/
-
  .smllogo{
      position: absolute;
      width: 90px;
@@ -226,32 +217,21 @@ a {
  .title{
      font-size: 54px;
      line-height: 1;
-	 font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      position: fixed;
      top: 115px;
-	 text-wrap-mode: nowrap;
+     text-wrap-mode: nowrap;
 }
  .rotleft{
      transform: rotate(-90deg) translateY(48px) translateX(-100%);
      transform-origin: 0% 50%;
 }
-.rotright{
-	 transform: rotate(90deg) translateY(-43px);
+ .rotright{
+     transform: rotate(90deg) translateY(-43px);
      transform-origin: 0% 50%;
 }
-
-
 /* ------------ Sidebar end ------------*/
-
-
-
-
-
-
-
 /* ------------ Navi & topbar start ------------*/
-
-
  .topbar {
      display: block;
      justify-content: space-between;
@@ -260,7 +240,6 @@ a {
      font-weight: 400;
      font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
 }
-
  .topbartext {
      font-size: 18px;
      font-weight: 400;
@@ -269,11 +248,9 @@ a {
      margin: 20px 0 0 0;
      color:#FFF;
 }
-
  .topbartext:hover{
      color:#222;
 }
-
  nav{
      font-size: 28px;
 }
@@ -283,16 +260,16 @@ a {
      position: fixed;
      z-index: 3000;
      overflow-x: hidden;
-	 padding-top: 0px;
+     padding-top: 0px;
 }
  .menuoverlay {
      position: relative;
-	 height: 100%;
-	 background:#d59b3e;
+     height: 100%;
+     background:#d59b3e;
 }
  .toplinks{
-	 padding: 12px 0 64px 0;
-	 margin: 0 auto;
+     padding: 12px 0 64px 0;
+     margin: 0 auto;
 }
  .mobnavlink{
      color:#FFF;
@@ -301,10 +278,10 @@ a {
      color:#222;
 }
  .mobnavul{
-	 font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
+     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      list-style: none;
      margin: 0;
-	 padding:0;
+     padding:0;
 }
  .mobnavsep {
      width: 100%;
@@ -315,25 +292,14 @@ a {
  .mobnavclose {
      margin-top: 8px;
      text-align:right;
-	 padding:0 32px 0 0;
-	 margin-bottom: 60px;
+     padding:0 32px 0 0;
+     margin-bottom: 60px;
 }
-
-.mobnavclose a{
+ .mobnavclose a{
      margin-right:38px;
 }
 /* ------------ Navi & topbar end ------------*/
-
-
-
-
-
-
-
-
-
 /* ------------ hero start ------------*/
-
  .sompahumancnt{
      width: 100%;
      position: relative;
@@ -379,7 +345,7 @@ a {
      position: relative;
      margin: auto;
      text-align: center;
-	 margin-left:35px;
+     margin-left:35px;
 }
  .socmediacontinv{
      width: 48px;
@@ -403,7 +369,7 @@ a {
      width: 26px;
      height: 26px;
      text-align:center;
-	 margin:12px 0 0px 9px;
+     margin:12px 0 0px 9px;
 }
  .sompahumanimg{
      width: 100%;
@@ -417,17 +383,7 @@ a {
      padding: 0;
 }
 /* ------------ hero end ------------*/
-
-
-
-
-
-
-
-
-
 /* ------------ footer start ------------*/
-
  footer {
      box-sizing: border-box;
      background-color: black;
@@ -513,15 +469,7 @@ a {
      text-align:center;
      margin:11px 0 0 0;
 }
-
-
 /* ------------ footer end ------------*/
-
-
-
-
-
-
  .payment {
      font-weight: 700;
      font-size: 16px;
@@ -541,7 +489,7 @@ a {
      min-height: 74px;
 }
  .paymentimgcnt.holvi {
-	 margin-top: 23px;
+     margin-top: 23px;
      min-height: 51px;
 }
  .paymentimg.holvi {
@@ -553,15 +501,12 @@ a {
  .contpadlrg{
      padding: 60px 24px;
 }
-
  .contpadsml{
      padding: 48px 0 82px 0;
 }
  .sidecnt{
      display:none;
 }
-
-
  .colsingleimg{
      width:80%;
      display: block;
@@ -584,29 +529,21 @@ a {
      text-align: center;
      margin:100px 0 100px 0;
 }
-
-
-
-
-
-@media screen and (min-width: 20.5em) {
-	.mediumtext{
+ @media screen and (min-width: 20.5em) {
+     .mediumtext{
          font-size: 14px;
     }
 }
-
-@media screen and (min-width: 22em) {
-	.mediumtext{
+ @media screen and (min-width: 22em) {
+     .mediumtext{
          font-size: 20px;
     }
 }
-
-@media screen and (min-width: 30.5em) {
-	.mediumtext{
+ @media screen and (min-width: 30.5em) {
+     .mediumtext{
          font-size: 22px;
     }
 }
-
  @media screen and (min-width: 35.5em) {
      .colsingleimg{
          width:60%;
@@ -618,7 +555,7 @@ a {
          font-size: 40px;
          padding: 38px 0 60px 0;
     }
-	.mediumtext{
+     .mediumtext{
          font-size: 24px;
     }
      .topbartext{
@@ -626,11 +563,9 @@ a {
     }
      .langtext{
          font-size:14px;
-		 padding:0px 30px 0 36px;
     }
      .langcnt{
-         margin-top: 14px;
-		 background-size: 28px;
+         background-size: 28px;
     }
      .contpadlrg{
          padding: 40px;
@@ -653,7 +588,7 @@ a {
     }
 }
  @media screen and (min-width: 48em) {
-	header {
+     header {
          background-color: #E7D8C0;
     }
      .largetext {
@@ -667,30 +602,39 @@ a {
          color:#222;
          font-size: 28px;
     }
-	.topbartext:hover {
+     .topbartext:hover {
          color: #d59b3e;
     }
-	
-	
-	
-	
-	
-	
      .langcnt {
-         background-image: url(../images/language.png);
-		 margin-top: 9px;
-         background-size: 28px;
+         padding-top: 9px;
     }
-     .langtext{		 
-		 padding: 0 30px 0 36px;
-		 font-size: 18px;
+     .langtext{
+         font-size: 18px;
+         color: #222;
+         margin-right: 10px;
     }
-	.langtext a{
-		color:#222;
-	}
-	.langtext a:hover{
-		color:#d59b3e;
-	}
+     .langtext a{
+         color:#222;
+    }
+     .langtext a:hover{
+         color:#d59b3e;
+    }
+     .langtext p {
+         display: block;
+         float: left;
+         margin-right:8px;
+    }
+     .langtext img {
+         top: 13px;
+         filter:none;
+    }
+     .langtext:hover p{
+         color: #d59b3e;
+    }
+     .langtext:hover img{
+         filter: invert(50%) sepia(100%) saturate(3.0);
+         -webkit-filter: invert(50%) sepia(100%) saturate(3.0);
+    }
      .midcol{
          display:block;
          float:left;
@@ -716,7 +660,7 @@ a {
     }
 }
  @media screen and (min-width: 64em) {
-	header .logo{
+     header .logo{
          width:111px;
     }
      .colsingleimg{
@@ -731,7 +675,6 @@ a {
      .socmediacontinv{
          margin: 0 4px;
     }
-
      .largetext {
          font-size: 44px;
          padding: 42px 0 64px 0;
@@ -742,7 +685,7 @@ a {
      .smllogo{
          width:111px;
     }
-	.smllogo img {
+     .smllogo img {
          margin: 8px 28px;
          width: 54px;
     }
@@ -750,16 +693,16 @@ a {
          width:111px;
     }
      .title{
-         font-size: 62px;         
+         font-size: 62px;
     }
-	 .rotleft{
-		transform: rotate(-90deg) translateY(58px) translateX(-100%);
-		transform-origin: 0% 50%;
-	}
-	.rotright{
-		transform: rotate(90deg) translateY(-53px);
-		transform-origin: 0% 50%;
-	}
+     .rotleft{
+         transform: rotate(-90deg) translateY(58px) translateX(-100%);
+         transform-origin: 0% 50%;
+    }
+     .rotright{
+         transform: rotate(90deg) translateY(-53px);
+         transform-origin: 0% 50%;
+    }
      .bigbtn{
          background:#fffdcb;
          font-size: 34px;
@@ -767,8 +710,6 @@ a {
          box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
          padding: 18px 27px 12px 27px;
     }
-
-
      .sompahuman {
          display: block;
          position: relative;
@@ -776,7 +717,7 @@ a {
          text-align: center;
          margin-bottom:0;
     }
-	.sompahumansome {
+     .sompahumansome {
          position: absolute;
          top: 0;
     }
@@ -807,7 +748,8 @@ a {
  @media screen and (min-width: 80em) {
      .maincont {
          max-width:100%;
-		 /*width:1920px;*/
+        /*width:1920px;
+        */
     }
      .contpadlrg{
          padding: 80px;
