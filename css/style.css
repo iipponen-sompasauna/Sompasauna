@@ -209,12 +209,20 @@ a {
  .title{
      font-size: 54px;
      line-height: 1;
-     transform: rotate(-90deg) translateY(50px) translateX(-100%);
-     transform-origin: 0% 50%;
+	 font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      position: fixed;
      top: 115px;
-     font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
 }
+ .rotleft{
+     transform: rotate(-90deg) translateY(48px) translateX(-100%);
+     transform-origin: 0% 50%;
+}
+.rotright{
+	 transform: rotate(90deg) translateY(-43px);
+     transform-origin: 0% 50%;
+}
+
+
 /* ------------ Sidebar end ------------*/
 
 
@@ -262,7 +270,7 @@ a {
  .menuoverlay {
      position: relative;
 	 height: 100%;
-	 background:#d59b3e;     
+	 background:#d59b3e;
 }
  .toplinks{
 	 padding: 12px 0 64px 0;
@@ -376,7 +384,7 @@ a {
  .sometop img {
      width: 26px;
      height: 26px;
-     text-align:center;     
+     text-align:center;
 	 margin:12px 0 0px 9px;
 }
  .sompahumanimg{
@@ -514,7 +522,7 @@ a {
      width:100%;
      min-height: 74px;
 }
- .paymentimgcnt.holvi {     
+ .paymentimgcnt.holvi {
 	 margin-top: 23px;
      min-height: 51px;
 }
@@ -580,7 +588,7 @@ a {
          font-size: 22px;
     }
 }
-	
+
  @media screen and (min-width: 35.5em) {
      .colsingleimg{
          width:60%;
@@ -604,12 +612,12 @@ a {
      .langcnt{
          margin-top: 3px;
 		 background-size: 34px;
-    }     
+    }
      .contpadlrg{
          padding: 40px;
     }
      .contpadsml{
-         padding: 64px 0 36px 0 
+         padding: 64px 0 36px 0;
     }
      .socmediacontinv{
          margin: 0px 6px 0 0px;
@@ -636,7 +644,7 @@ a {
      .sidecnt{
          display:block;
     }
-     
+
      .topbartext, .topbartext a{
          color:#222;
          font-size: 28px;
@@ -690,7 +698,7 @@ a {
      .socmediacontinv{
          margin: 0 4px;
     }
-   
+
      .largetext {
          font-size: 44px;
          padding: 42px 0 64px 0;
@@ -709,12 +717,16 @@ a {
          width:111px;
     }
      .title{
-         font-size: 62px;
-         transform: rotate(-90deg) translateY(60px) translateX(-100%);
-         transform-origin: 0% 50%;
-         top: 115px;
+         font-size: 62px;         
     }
-
+	 .rotleft{
+		transform: rotate(-90deg) translateY(58px) translateX(-100%);
+		transform-origin: 0% 50%;
+	}
+	.rotright{
+		transform: rotate(90deg) translateY(-53px);
+		transform-origin: 0% 50%;
+	}
      .bigbtn{
          background:#fffdcb;
          font-size: 34px;
@@ -742,7 +754,7 @@ a {
          clear: both;
     }
      .sompahumansome.right {
-         right: 20px;         
+         right: 20px;
     }
      .sompahumanicons a.right {
          float: right;
@@ -768,7 +780,7 @@ a {
     }
      .contpadlrg{
          padding: 80px;
-    }     
+    }
      .contpadsml{
          padding:70px 100px;
     }
@@ -829,7 +841,7 @@ a {
     }
      .socmediacontinv.right{
          margin:0 0 0 6px;
-    }     
+    }
      .largetext {
          font-size: 48px;
          padding:0px 0 46px 0;
@@ -844,10 +856,10 @@ a {
  @media screen and (min-width: 160em) {
      .socmediacontinv{
          margin: 0 8px;
-    }     
+    }
 }
  @media screen and (min-width: 240em) {
      .socmediacontinv{
          margin: 0 11px;
-    }     
-} 
+    }
+}
