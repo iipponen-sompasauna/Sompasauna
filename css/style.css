@@ -25,6 +25,33 @@
  img{
      max-width:100%;
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+[data-icon]::before {
+  content: attr(data-icon);
+  font-family: 'Material Icons';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.4em;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
 /* * Remove default fieldset styles. */
  fieldset {
      border: 0;
@@ -78,8 +105,6 @@
      background-color: #E7D8C0;
 }
  .maincont{
-    /*width:100%;
-    */
      margin-right: auto;
      margin-left: auto;
      display:block;
@@ -119,7 +144,7 @@
  .langcnt{
      display:block;
      float: left;
-     padding-top: 15px;
+     margin: 25px 0 0 0;
 }
  .langtext{
      font-size:14px;
@@ -129,33 +154,12 @@
      margin-right: 12px;
      padding: 0px 0 0px 2px;
 }
- .langtext img{
-     height: 24px;
-     width: 24px;
-     float: left;
-     position: relative;
-     margin-right: 3px;
-     top: 8px;
-     filter: invert(100%) brightness(125%);
-     -webkit-filter: invert(100%) brightness(125%);
-    /* safari 6.0 - 9.0 */
-}
- .langtext:hover p{
+ .langtext:hover{
      color:#222;
 }
- .langtext:hover img{
-     -webkit-filter:none;
-}
- .langtext p{
-     display:block;
-     float: left;
-}
- .langtext a{
-     color:#FFF;
-}
- .langtext a:hover{
-     color:#222;
-}
+
+
+
 /* ------------ Language selector end ------------*/
  .midcol {
      display: block;
@@ -220,7 +224,7 @@
      font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      position: fixed;
      top: 115px;
-     text-wrap-mode: nowrap;
+	 white-space:nowrap;     
 }
  .rotleft{
      transform: rotate(-90deg) translateY(48px) translateX(-100%);
@@ -516,11 +520,11 @@
  .bigbtn {
      font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      font-weight: 400;
+	 font-size: 18px;
+	 text-decoration:none;
      color: #222;
-     background:#fffdcb;
-     text-decoration:none;
-     outline: none;
-     font-size: 18px;
+     background:#fffdcb;     
+     outline: none;     
      border: 6px solid #222;
      box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
      padding: 18px 20px 14px 20px;
@@ -606,35 +610,16 @@
          color: #d59b3e;
     }
      .langcnt {
-         padding-top: 9px;
-    }
+		 margin: 23px 10px 0 0;         
+    }	
      .langtext{
          font-size: 18px;
          color: #222;
          margin-right: 10px;
     }
-     .langtext a{
-         color:#222;
-    }
-     .langtext a:hover{
+	.langtext:hover{
          color:#d59b3e;
-    }
-     .langtext p {
-         display: block;
-         float: left;
-         margin-right:8px;
-    }
-     .langtext img {
-         top: 13px;
-         filter:none;
-    }
-     .langtext:hover p{
-         color: #d59b3e;
-    }
-     .langtext:hover img{
-         filter: invert(50%) sepia(100%) saturate(3.0);
-         -webkit-filter: invert(50%) sepia(100%) saturate(3.0);
-    }
+    }	
      .midcol{
          display:block;
          float:left;
@@ -748,8 +733,6 @@
  @media screen and (min-width: 80em) {
      .maincont {
          max-width:100%;
-        /*width:1920px;
-        */
     }
      .contpadlrg{
          padding: 80px;
