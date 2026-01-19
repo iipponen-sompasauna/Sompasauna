@@ -147,7 +147,7 @@
      margin: 25px 0 0 0;
 }
  .langtext{
-     font-size:12px;
+     font-size:10px;
      color:#FFF;
      display:block;
      float: left;
@@ -224,7 +224,7 @@
      font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
      position: fixed;
      top: 115px;
-	 white-space:nowrap;     
+	 white-space:nowrap;
 }
  .rotleft{
      transform: rotate(-90deg) translateY(48px) translateX(-100%);
@@ -245,7 +245,7 @@
      font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
 }
  .topbartext {
-     font-size: 14px;
+     font-size: 12px;
      font-weight: 400;
      line-height: 34px;
      font-family: "Rubik Mono One", Helvetica, Arial, sans-serif;
@@ -523,8 +523,8 @@
 	 font-size: 18px;
 	 text-decoration:none;
      color: #222;
-     background:#fffdcb;     
-     outline: none;     
+     background:#fffdcb;
+     outline: none;
      border: 6px solid #222;
      box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
      padding: 18px 20px 14px 20px;
@@ -542,6 +542,18 @@
      .mediumtext{
          font-size: 20px;
     }
+}
+
+ @media screen and (min-width: 25em) {
+     .mediumtext{
+         font-size: 20px;
+    }
+	.topbartext {
+		 font-size: 14px;
+	}
+	.langtext {
+		font-size: 12px;
+	}
 }
  @media screen and (min-width: 30.5em) {
      .mediumtext{
@@ -564,7 +576,7 @@
     }
      .topbartext{
          font-size: 20px;
-		 margin: 20px 0 0 0;		 
+		 margin: 20px 0 0 0;
     }
      .langtext{
          font-size:14px;
@@ -612,8 +624,8 @@
          color: #d59b3e;
     }
      .langcnt {
-		 margin: 23px 10px 0 0;         
-    }	
+		 margin: 23px 10px 0 0;
+    }
      .langtext{
          font-size: 18px;
          color: #222;
@@ -622,7 +634,7 @@
     }
 	.langtext:hover{
          color:#d59b3e;
-    }	
+    }
      .midcol{
          display:block;
          float:left;
