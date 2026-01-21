@@ -182,6 +182,10 @@
      margin: 0;
      padding: 26px 0;
 }
+.smlls
+{
+	letter-spacing: -5px;
+}
 /* ------------ Sidebar start ------------*/
  .smllogo{
      position: absolute;
@@ -256,7 +260,7 @@
      color:#222;
 }
  nav{
-     font-size: 28px;
+     font-size: 14px;
 }
  .menucont{
      height: 100%;
@@ -296,11 +300,11 @@
  .mobnavclose {
      margin-top: 8px;
      text-align:right;
-     padding:0 32px 0 0;
+	 padding:6px 32px 0 0;	 
      margin-bottom: 60px;
 }
  .mobnavclose a{
-     margin-right:38px;
+	 margin-right:0;
 }
 /* ------------ Navi & topbar end ------------*/
 /* ------------ hero start ------------*/
@@ -537,6 +541,9 @@
      .mediumtext{
          font-size: 14px;
     }
+	 nav{
+		 font-size: 15px;
+	}
 }
  @media screen and (min-width: 22em) {
      .mediumtext{
@@ -554,11 +561,17 @@
 	.langtext {
 		font-size: 12px;
 	}
+	nav{
+		 font-size: 16px;
+	}
 }
  @media screen and (min-width: 30.5em) {
      .mediumtext{
          font-size: 22px;
     }
+	nav{
+		 font-size: 18px;
+	}
 }
  @media screen and (min-width: 35.5em) {
      .colsingleimg{
@@ -604,6 +617,9 @@
          box-shadow: 11px 10px 0 -4px #fffdcb, 11px 10px 0 2px #222;
          padding: 18px 24px 12px 24px;
     }
+	nav{
+		 font-size: 20px;
+	}
 }
  @media screen and (min-width: 48em) {
      header {
@@ -658,6 +674,9 @@
      .mediumtext{
          font-size: 28px;
     }
+	nav{
+		 font-size: 28px;
+	}
 }
  @media screen and (min-width: 64em) {
      header .logo{
