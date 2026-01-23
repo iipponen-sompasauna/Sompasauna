@@ -619,6 +619,10 @@ footer contact .right {
 	margin: 100px 0 100px 0;
 }
 
+.absolute {
+	position: absolute;
+}
+
 @media screen and (min-width: 20.5em) {
 	.mediumtext {
 		font-size: 14px;
