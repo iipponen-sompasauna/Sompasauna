@@ -655,6 +655,10 @@ footer contact .right {
 	position: absolute;
 }
 
+.selectable {
+	user-select: all;
+}
+
 @media screen and (min-width: 20.5em) {
 	.mediumtext {
 		font-size: 14px;
